@@ -33,6 +33,8 @@ contract PetPark {
     }
 
     function add(AnimalType _animalType, uint8 _count) public onlyOwner {
+        require(_animalType != AnimalType.None, "Invalid animal");
+        
         animalCounts[_animalType] += _count;
         emit Added(_animalType, _count);
     }
