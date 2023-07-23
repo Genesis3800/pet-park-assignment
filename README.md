@@ -1,5 +1,11 @@
 # Pet Park
 
+## Tests passed and assignment completed
+
+Check out this beautiful OCD satisfying picture
+![image](https://github.com/Genesis3800/pet-park-assignment/assets/56264430/d353a8e6-9341-4123-9236-2388c5f19ede)
+
+
 ## Goal
 
 The goal of this exercise is to develop a pet park smart contract. The basic structure of this contract has been laid out for you in `src/PetPark.sol`. We can have 5 kinds of animals in our pet park
